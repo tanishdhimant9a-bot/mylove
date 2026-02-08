@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be Mine? ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-tLEQkcD1.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B0_Txi7O.css">
+</head>
+<body>
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <div class="music-control" id="musicControl">
+        <button id="musicToggle" aria-label="Toggle Music">
+            <span id="musicIcon">🔊</span>
+        </button>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_4a8dd50963.mp3" type="audio/mpeg">
+    </audio>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">I Have Something Special To Ask You... ❤️</h1>
+            <p class="hero-subtitle" id="typingText"></p>
+            <button class="continue-btn" id="continueBtn">
+                Click to Continue
+                <span class="arrow">↓</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="memories" class="memories-section">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <p class="section-subtitle">Every moment with you is a treasure</p>
+
+            <div class="gallery">
+                <div class="gallery-item" data-caption="Our First Meeting">
+                    <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Memory 1">
+                    <div class="gallery-overlay">
+                        <p>Our First Meeting</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Our First Selfie">
+                    <img src="https://images.pexels.com/photos/1586973/pexels-photo-1586973.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Memory 2">
+                    <div class="gallery-overlay">
+                        <p>Our First Selfie</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="My Favorite Moment With You">
+                    <img src="https://images.pexels.com/photos/1024998/pexels-photo-1024998.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Memory 3">
+                    <div class="gallery-overlay">
+                        <p>My Favorite Moment With You</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="When You Made Me Laugh">
+                    <img src="https://images.pexels.com/photos/1482193/pexels-photo-1482193.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Memory 4">
+                    <div class="gallery-overlay">
+                        <p>When You Made Me Laugh</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Our Adventure Together">
+                    <img src="https://images.pexels.com/photos/1645634/pexels-photo-1645634.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Memory 5">
+                    <div class="gallery-overlay">
+                        <p>Our Adventure Together</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="A Perfect Day">
+                    <img src="https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Memory 6">
+                    <div class="gallery-overlay">
+                        <p>A Perfect Day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <section id="loveLetter" class="love-letter-section">
+        <div class="container">
+            <h2 class="section-title">A Letter From My Heart</h2>
+            <div class="letter-card">
+                <div class="letter-content" id="letterContent">
+                    <p>My Dearest Love,</p>
+                    <p>From the moment you walked into my life, everything changed. Your smile became my sunshine, your laughter my favorite melody, and your presence the peace I never knew I needed.</p>
+                    <p>Every day with you feels like a beautiful dream I never want to wake up from. You've shown me what it means to truly love and be loved. You've been my strength when I was weak, my joy in moments of sadness, and my constant source of inspiration.</p>
+                    <p>The way you understand me without words, the way you support my dreams, and the way you make ordinary moments extraordinary - these are just a few of the countless reasons why my heart beats for you.</p>
+                    <p>You are not just my love; you are my best friend, my confidant, my partner in all of life's adventures. With you, I've found my home, my happiness, and my forever.</p>
+                    <p>Today, I want to ask you something that has been on my mind and in my heart...</p>
+                    <p class="letter-signature">Forever Yours,<br>With All My Love ❤️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reasons" class="reasons-section">
+        <div class="container">
+            <h2 class="section-title">Why I Love You</h2>
+            <p class="section-subtitle">Here are just a few of the infinite reasons</p>
+
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon">😊</div>
+                    <h3>Your Smile</h3>
+                    <p>Your smile lights up my entire world and makes even the darkest days brighter</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">💪</div>
+                    <h3>Your Support</h3>
+                    <p>You believe in me even when I don't believe in myself, and that means everything</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🌟</div>
+                    <h3>Your Kindness</h3>
+                    <p>The way you care for others and spread love wherever you go inspires me daily</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">🎭</div>
+                    <h3>Your Humor</h3>
+                    <p>Your laughter is contagious, and you know exactly how to make me smile</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">❤️</div>
+                    <h3>Your Love</h3>
+                    <p>The way you love me unconditionally makes me feel like the luckiest person alive</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon">✨</div>
+                    <h3>Simply You</h3>
+                    <p>Everything about you, from your quirks to your dreams, makes life beautiful</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proposal" class="proposal-section">
+        <div class="container">
+            <div class="proposal-content">
+                <h2 class="proposal-title">Will You Be Mine Forever? 💍</h2>
+                <p class="proposal-subtitle">This is the question I've been waiting to ask you...</p>
+
+                <div class="proposal-buttons">
+                    <button class="btn-yes" id="btnYes">YES ❤️</button>
+                    <button class="btn-no" id="btnNo">NO 😢</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="celebration" class="celebration hidden">
+        <div class="celebration-content">
+            <h2>You Made Me The Happiest Person Alive! 💖</h2>
+            <p>I promise to love you forever and always</p>
+            <div class="celebration-hearts">
+                <span class="heart-bounce">❤️</span>
+                <span class="heart-bounce">💕</span>
+                <span class="heart-bounce">💖</span>
+                <span class="heart-bounce">💗</span>
+                <span class="heart-bounce">❤️</span>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <footer class="footer">
+        <p>Made With Love ❤️</p>
+        <p>Propose Day 2024</p>
+    </footer>
+
+</body>
+</html>
